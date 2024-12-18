@@ -20,4 +20,4 @@ jobs:
 
     - name: Deploy to server
       run: |
-        ssh -o StrictHostKeyChecking=no user@votre_serveur "cd /home/share/technoweb && git pull origin main"
+        ssh -o StrictHostKeyChecking=no student-admin@192.168.11.124 "cd /home/share/technoweb && git pull origin main"
